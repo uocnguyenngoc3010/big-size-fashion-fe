@@ -4,7 +4,7 @@ import queryString from "query-string";
 // Set up default config for http requests here
 
 // Please have a look at here `https://github.com/axios/axios#request-config` for the full list of configs
-const REACT_APP_API_URL = "https://20.211.17.194/api";
+const REACT_APP_API_URL = "http://bigsizefashion.somee.com/api";
 
 const axiosClient = axios.create({
   baseURL: REACT_APP_API_URL,
